@@ -1,0 +1,40 @@
+# Customer follow-up system
+
+## Overview
+An automated customer follow-up workflow that captures incoming form submissions,
+logs them and sends timed confirmation and follow up emails without manual tracking
+
+## Problem
+Manually tracking new customer/lead submissions and remembering to send timely
+follow-ups is time-consuming and easy to drop. Delayed for missed follow-ups means
+lost engagement and lost business
+
+## Solution
+This workflow automatically:
+1. Watches for new Google Form responses
+2. Logs each response as a new row in Google Sheets
+3. Sends an initial confirmation email via Gmail
+4. Waits for a set period
+5. Sends a follow-up email via Gmail
+6. Updates the Google Sheet row to mark the follow-up as sent
+
+## Tools
+- Make.com
+- Googlr Forms
+- Google Sheets
+- Gmail
+
+## Outcome
+Estimated time saved:
+~168 hrs/years
+~14 hrs/month
+~3.2 hrs/weekly
+
+## Workflow
+![workflow](workflow.png)
+
+## Files
+- `blueprint.json` — Make.com scenario blueprint
+
+## Make Scenario
+[View the scenerio]https://eu1.make.com/public/shared-scenario/HyUW0CVTGJh/project-1-customer-follow-up-system
